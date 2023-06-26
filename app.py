@@ -43,7 +43,7 @@ def main():
 
     # display the front end aspect
     st.markdown(html_temp, unsafe_allow_html = True)
-
+    st.image("""https://www.pep2dia.com/wp-content/uploads/2021/03/how-to-diagnose-diabetes.png""")
     # following lines create boxes in which user can enter data required to make prediction
     Store = st.number_input("EnterNumber of Store Number",min_value=1, max_value=50)
     Holiday = st.selectbox('Holiday Status',("Holiday","Not Holiday"))
